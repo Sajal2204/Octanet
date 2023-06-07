@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    padding: 10px 0;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('nature-photo0.jpg');
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  /* Photo Gallery Section Styles */
+  .photo-gallery {
+    padding: 50px 0;
+  }
+  
+  .photo-gallery h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .photo-gallery .photo {
+    margin-bottom: 30px;
+  }
+  
+  /* About Section Styles */
+  .about {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  .about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #002503;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Animation Styles */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  .text-primary {
+    color: #fff !important;
+  }
+  
+  
